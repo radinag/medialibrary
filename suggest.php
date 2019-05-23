@@ -1,6 +1,6 @@
 <?php 
 
-if ($_SERVER["REQUEST_METHOD"] == "POST"") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = trim(filter_input(INPUT_POST,"name",FILTER_SANITIZE_STRING));
     $email = trim(filter_input(INPUT_POST,"email",FILTER_SANITIZE_EMAIL));
     $category = trim(filter_input(INPUT_POST,"category",FILTER_SANITIZE_STRING));
