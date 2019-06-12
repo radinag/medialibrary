@@ -5,7 +5,7 @@ This project was built using PHP. It organizes and displays Books, Movies and Mu
 
 ## Additional Info
 
-It also has a Suggestion section with the added PHPMailer function to send emails safely with via PHP code from a web server.
+It also has a Suggestion Section, which a user can fill out. It has an added PHPMailer functionality sending emails safely via a web server.
 
 ## Reference
 [Team Treehouse](https://teamtreehouse.com)
